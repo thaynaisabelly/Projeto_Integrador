@@ -1,0 +1,28 @@
+.font-semibold {
+    border-radius: 2.5em;
+    margin: 2px;
+    padding-left: 3px;
+    cursor: text;
+}
+
+#nome {
+    width: 130px;
+}
+
+#turma {
+    width: 60px;
+}
+
+#curso {
+    width: 120px;
+}
+
+#button1 {
+    cursor: pointer;
+
+}
+
+#button1:hover {
+    color: black;
+    background-color: white;
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url(/css/Initial/header.css);
+@import url(/css/Initial/main.css);
+@import url(/css/Initial/footer.css);
+@import url(/css/Initial/animation_initial.css);
+@import url(/css/login/login.css);
+@import url(/css/login/animation_login.css);
+@import url(/css/cadastro/main.css);
+@import url(/css/cadastro/animation.cadastro.css);
+
+:root {
+    --background-black: #000000;
+    --background-itens: #1a1c23;
+    --selecionado: #7e3af2;
+    --color-title: #E5E7EB;
+    --color-subtitle: #9E9E9E;
+    --color-font: #ffffff;
+    --icons-menu: #CABFFD;
+    --icon1: #FFA51F;
+    --icon2: #0E9F6E;
+    --icon3: #0694A2;
+    --red-notification: #E02424;
+    --verde-background: #04C64E;
+    --font-base: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: var(--font-base);
+    color: var(--color-font);
+}

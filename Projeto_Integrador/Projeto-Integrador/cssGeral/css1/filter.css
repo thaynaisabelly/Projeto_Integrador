@@ -1,0 +1,41 @@
+section {
+    width: 1020px;
+    height: auto;
+    margin: 100px auto;
+}
+
+section label {
+    width: 175px;
+    padding: 20px 10px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+}
+
+input:checked+label {
+    background-color: #8ab1c8;
+
+}
+
+.filtro1 {
+    display: none;
+}
+
+#filtro_turma_a3:checked~#filtros .turma_b1,
+#filtro_turma_a3:checked~#filtros .turma_c2 {
+    display: none;
+
+}
+
+#filtro_turma_b1:checked~#filtros .turma_a3,
+#filtro_turma_b1:checked~#filtros .turma_c2 {
+    display: none;
+
+}
+
+#filtro_turma_c2:checked~#filtros .turma_b1,
+#filtro_turma_c2:checked~#filtros .turma_a3 {
+    display: none;
+
+}
